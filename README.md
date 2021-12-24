@@ -44,12 +44,14 @@ How to use
         
         vvp a.out
         
-        <img src='terminal.png'></img>
+    <img src='terminal.png'></img>
  
         
 5. To monitor the  gtk wave , type the following command
         
             gtkwave cpu_wavedata.vcd
+            
+    <img src='gtkwave.png'></img>
 
         
         
