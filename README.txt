@@ -32,6 +32,12 @@ How to use
     A sample testbench that includes this syntax to read the .mem file is given
     to you (cpu_tb.v). You may use it for the simulation of your Simple Processor.
     
+    
+  (Note: As you may have already realized, once you have setup the files for the 
+    simulation by following above steps 1-3, you will only need to do step 2
+    every-time you need to load a new program to the CPU - given that the Assembler 
+    program and the location of instr_mem.mem file remains unchanged) 
+    
  4. To compile and run the code type the following commands
  
         iverilog -o a.out tb.v reg_file.v or.v insmem.v inscache.v forward.v dcache.v data_memory.v cpu.v and.v alu.v add.v
@@ -46,8 +52,5 @@ How to use
         
     
     
-(Note: As you may have already realized, once you have setup the files for the 
-simulation by following above steps 1-3, you will only need to do step 2
-every-time you need to load a new program to the CPU - given that the Assembler 
-program and the location of instr_mem.mem file remains unchanged) 
+
     
