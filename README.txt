@@ -1,4 +1,4 @@
-How to use the Programmer to load a program to the Simple Processor
+How to use 
 -------------------------------------------------------------------
 
 
